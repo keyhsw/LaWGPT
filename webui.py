@@ -25,7 +25,7 @@ except:
 
 def main(
     load_8bit: bool = False,
-    base_model: str = "",
+    base_model: str = "huggyllama/llama-7b",
     lora_weights: str = "",
     prompt_template: str = "",  # The prompt template to use, will default to alpaca.
     server_name: str = "0.0.0.0",  # Allows to listen on all interfaces by providing '0.
